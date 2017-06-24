@@ -1,0 +1,54 @@
+/*@font-face {
+  font-family: "nanumbarungodig";
+  src: url(fonts/NanumBarunGothic.ttf) format("truetype");
+}*/
+
+@font-face {
+  font-family: "nanumbarungodig";
+  src: url(fonts/NanumBarunGothicBold.ttf) format("truetype");
+}
+
+/*.customfont {
+  font-family: "nanumbarungodig", Verdana, Tahoma;
+}*/
+
+.customfont {
+  font-family: "nanumbarungodig", Verdana, Tahoma;
+}
+
+.seoul-shinsegae-font {
+  color: #01A5B1 !important;
+}
+
+.seoul-shinsegae-background {
+  background-color: #01A5B1 !important;
+}
+
+.full-image {
+  width: 100%;
+}
+
+.logo-img {
+  max-height: 64px!important;
+  padding: 12px 0 11px 0 !important;
+  float: left;
+  margin: 0 10px 0 -40px;
+}
+
+.navbar-buttons {
+  width: 33%;
+  height: 80px;
+  text-align: center;
+}
+
+.icon-text {
+  margin-top: -30px
+}
+
+.title-font-size {
+  font-size: 22px !important;
+}
+
+.button-bar {
+  height: 80px !important;
+}

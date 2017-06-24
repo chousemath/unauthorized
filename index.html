@@ -1,1 +1,75 @@
-hello world
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Seoul Shinsegae Opthamology</title>
+  <meta name="Seoul Shinsegae Opthamology Terms" content="Seoul Shinsegae Opthamology Terms">
+  <meta name="author" content="SitePoint">
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Include Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <nav class="transparent" style="height: 80px; display: flex; justify-content: center; align-items: center;">
+    <div class="nav-wrapper" style="background-color: blue; display: flex; justify-content: center; align-items: center;">
+      <a href="#" class="brand-logo center seoul-shinsegae-font customfont">
+        <img class="logo-img" src="images/logo_1.png" />
+        <span class="title-font-size">서울신세계안과</span>
+      </a>
+    </div>
+  </nav>
+
+  <nav>
+    <div class="nav-wrapper seoul-shinsegae-background button-bar">
+      <ul style="width: 100%;">
+        <li class="navbar-buttons">
+          <a href="http://www.jamesahn.co/seoulsinsaegae">
+            <i class="material-icons">today</i>
+            <p class="icon-text customfont">온라인상담</p>
+          </a>
+        </li>
+        <li class="navbar-buttons">
+          <a onclick="makeCall()">
+            <i class="material-icons">phone</i>
+            <p class="icon-text customfont">전화걸기</p>
+          </a>
+        </li>
+        <li class="navbar-buttons">
+          <a href="https://pf.kakao.com/_JGppd">
+            <i class="material-icons">chat</i>
+            <p class="icon-text customfont">카톡상담</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <img class="full-image" src="http://graceclinic.co.kr/pc/data/editor/1705/thumb-6d9232034e965cbf8df096fe8c8caa1f_1496022246_2022_600x2494.jpg"/>
+
+  <script>
+    function makeCall() {
+      window.location.href='tel:15997397';
+    }
+  </script>
+
+</body>
+</html>
